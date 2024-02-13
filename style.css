@@ -1,5 +1,5 @@
 :root{
-    --cor-primaria: #8E2424; 
+    --cor-primaria: #8e2424;
     --cor-secundaria: #667085;
     --cor-terciaria: #101828;
 }
@@ -121,4 +121,45 @@ body{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
+}
+
+.vagas{
+    padding: 6rem 0;
+}
+
+.vagas__talentos{
+    margin-bottom: 4rem;
+}
+
+.vagas__talentos-container{
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.vagas__talentos-span{
+    font-weight: 500;
+    font-size: 0.87rem;
+    color: var(--cor-primaria);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    background-color: rgba(142, 36, 36, 0.1);
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.vagas__talentos-titulo{
+    color: var(--cor-terciaria);
+    font-weight: 600;
+    font-size: 2.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.vagas__talentos-descricao{
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    font-size: 1.25rem;
+}
+
+.vagas__talentos-imagem{
+    width: 100%;
 }
