@@ -89,3 +89,36 @@ body{
     max-width: 50%;
     text-align: center;
 }
+
+.metricas{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 6rem;
+}
+
+.metricas__container{
+    flex-basis: 25%;
+}
+
+.metricas__numero{
+    color: var(--cor-primaria);
+    font-weight: 600;
+    font-size: 3.75rem;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+}
+
+.metricas__titulo{
+    color: var(--cor-terciaria);
+    font-size: 1.12rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.metricas__descricao{
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
