@@ -2,6 +2,7 @@
     --cor-primaria: #8e2424;
     --cor-secundaria: #667085;
     --cor-terciaria: #101828;
+    --cor-quaternaria: #EAECF0;
 }
 
 * {
@@ -127,10 +128,6 @@ body{
     padding: 6rem 0;
 }
 
-.vagas__talentos{
-    margin-bottom: 4rem;
-}
-
 .vagas__talentos-container{
     margin-bottom: 4rem;
     text-align: center;
@@ -162,4 +159,47 @@ body{
 
 .vagas__talentos-imagem{
     width: 100%;
+    display: block;
+}
+
+.vagas__abertas{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.vagas__abertas-area{
+    color: var(--cor-terciaria);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 4rem 0 2rem;
+}
+
+.vagas__abertas-item{
+    list-style-type: none;
+    padding: 1.5rem;
+    border: 1px solid var(--cor-quaternaria);
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.vagas__abertas-item:last-child{
+    margin-bottom: 0;
+}
+
+.vagas__abertas-titulo{
+    font-size: 1.12rem;
+    color: var(--cor-terciaria);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.vagas__abertas-informacoes{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.vagas__abertas-descricao{
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    font-weight: 500;
 }
