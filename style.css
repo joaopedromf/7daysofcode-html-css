@@ -128,6 +128,10 @@ body{
     padding: 6rem 0;
 }
 
+.vagas__talentos{
+    margin: 0 2rem;
+}
+
 .vagas__talentos-container{
     margin-bottom: 4rem;
     text-align: center;
@@ -202,4 +206,46 @@ body{
     color: var(--cor-secundaria);
     font-size: 1rem;
     font-weight: 500;
+}
+
+.depoimentos{
+    background-color: rgba(195, 25, 25, 0.03);
+    padding: 4rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 0 2rem 6rem;
+}
+
+.depoimentos__subtitulo{
+    color: var(--cor-primaria);
+    font-size: 0.87rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.depoimentos__citacao{
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: var(--cor-terciaria);
+    margin: 1rem auto 2rem;
+    width: 85%;
+}
+
+.depoimentos__avatar{
+    display: block;
+    margin: 0 auto;
+}
+
+.depoimentos__nome{
+    display: block;
+    color: var(--cor-terciaria);
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1rem 0 4px;
+}
+
+.depoimentos__cargo{
+    color: var(--cor-secundaria);
+    font-size: 0.87rem;
+    font-weight: 400;
 }
